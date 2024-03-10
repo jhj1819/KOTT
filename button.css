@@ -1,0 +1,15 @@
+.back-button, .home-button {
+position: fixed;
+top: 15px;
+font-size: 1.2em;
+text-decoration: none;
+color: white;
+}
+			
+.back-button {
+left: 20px;
+}
+			
+.home-button {
+right: 20px;
+}

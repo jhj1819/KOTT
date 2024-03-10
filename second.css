@@ -1,0 +1,58 @@
+body,
+header,
+footer {
+width: 100%;
+  color: white;
+  margin :0px
+}
+body {
+  background-color: black;
+}
+footer {
+  background-color: #a22b2b;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+}
+header {
+  background-color: #a22b2b;
+  text-align: center;
+  padding : 5px 0px 5px 0px
+}
+section{
+	width : 100%;
+	background-color: #a22b2b;
+}
+span{
+	display:inline-block;
+}
+.logo img{
+   width: 80px;
+   height: auto;
+}
+
+.characters img{
+	width: 75px;
+   height: auto;
+    margin-right: 20px;
+}
+.main-image{
+	width : 100%;
+}
+.story p{
+	font-size:1.2em;
+}
+p{
+	font-size:0.8em;
+}   
+.logo p{
+		display : inline-block;
+}
+@media only screen and (min-width: 321px) and (orientation: landscape) {
+  .logo{
+	width: 30%;
+	float : right;
+}
+.logo img{
+	width: 60px}
+}
